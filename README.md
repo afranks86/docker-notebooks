@@ -14,4 +14,4 @@
 - https://docs.docker.com/compose/install/
 
 
-- Set install directory at /lib/systemd/system/docker.service
+- Set install directory at /lib/systemd/system/docker.service to somewhere in `/home`
