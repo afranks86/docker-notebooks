@@ -12,3 +12,6 @@
 - https://docs.docker.com/engine/install/linux-postinstall/
 
 - https://docs.docker.com/compose/install/
+
+
+- Set install directory at /lib/systemd/system/docker.service
