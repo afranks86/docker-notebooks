@@ -3,6 +3,7 @@
 ## Mounting
 - Copy everything `/home` to `/mnt`
 - Edit `/etc/fstab` to set mount point from `/mnt` to `/home`
+- `sudo mount /dev/vdb /home` and `sudo umount /mnt`
 
 ## Update ubunutu version
 
