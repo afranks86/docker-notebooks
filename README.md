@@ -14,6 +14,9 @@
 - https://docs.docker.com/engine/install/linux-postinstall/
 
 - Set install directory at /lib/systemd/system/docker.service to somewhere in `/home`, e.g. `ExecStart=/usr/bin/dockerd -g /home/docker -H fd:// --containerd=/run/containerd/containerd.sock`
+  1. sudo systemctl stop docker
+  2. sudo systemctl daemon-reload
+  3. sudo systemctl start docker
 
 - https://docs.docker.com/compose/install/
 
