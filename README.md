@@ -13,7 +13,8 @@
 
 - https://docs.docker.com/engine/install/linux-postinstall/
 
+- Set install directory at /lib/systemd/system/docker.service to somewhere in `/home`, e.g. `ExecStart=/usr/bin/dockerd -g /home/docker -H fd:// --containerd=/run/containerd/containerd.sock`
+
 - https://docs.docker.com/compose/install/
 
 
-- Set install directory at /lib/systemd/system/docker.service to somewhere in `/home`
