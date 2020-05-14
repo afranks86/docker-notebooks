@@ -20,4 +20,7 @@
 
 - https://docs.docker.com/compose/install/
 
+## Launch Jupyterhub
 
+- run `./setup.sh` and enter passphrase
+- `IMAGE=python-rstudio-notebook docker-compose up`
