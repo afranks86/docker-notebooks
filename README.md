@@ -6,7 +6,7 @@
 - `sudo mount /dev/vdb /home` and `sudo umount /mnt`
 
 ## Update ubunutu version
-do-release-upgrade
+`do-release-upgrade`
 
 ## Docker Set Up
 - https://docs.docker.com/engine/install/ubuntu/
